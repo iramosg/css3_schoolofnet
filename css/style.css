@@ -32,6 +32,11 @@ header{
     float: left;
 }
 
+.section-example{
+    text-align: center;
+    padding-left: 20px;
+}
+
 /* Chrome, Safari, Opera */
 @-webkit-keyframes animHeader {
     0%   {background-color: #d9534f;}
