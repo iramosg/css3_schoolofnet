@@ -37,6 +37,22 @@ header{
     padding-left: 20px;
 }
 
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.col-3 {width: 22.59%;}
+
+.text-center{
+    text-align: center;
+}
+
 /* Chrome, Safari, Opera */
 @-webkit-keyframes animHeader {
     0%   {background-color: #d9534f;}
