@@ -244,3 +244,53 @@ div.container{
 }
 
 /* FIM AULA 5 */
+
+/* AULA 6 */
+
+.text1{
+    white-space: nowrap;
+    width: 200px;
+    border: 1px solid #000;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.text2{
+    white-space: nowrap;
+    width: 200px;
+    border: 1px solid #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.text3{
+    white-space: nowrap;
+    width: 200px;
+    border: 1px solid #000;
+    overflow: hidden;
+}
+
+.text1:hover, .text2:hover, .text3:hover{
+    text-overflow: inherit;
+    overflow: visible;
+}
+
+.text4{
+    width: 140px;
+    border: 1px solid #000;
+    word-break: keep-all;
+}
+
+.text5{
+    width: 140px;
+    border: 1px solid #000;
+    word-break: break-all;
+}
+
+.text6{
+    width: 140px;
+    border: 1px solid #000;
+    word-wrap: break-word;
+}
+
+/* FIM AULA 6 */
