@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
 /* AULA 1 */
 
 #corners1{
@@ -294,3 +297,24 @@ div.container{
 }
 
 /* FIM AULA 6 */
+
+
+/* AULA 7 */
+
+.font1{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.font2{
+    font-family: 'Roboto Slab', serif;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat.ttf);
+}
+
+.font3{
+    font-family: 'Montserrat';
+}
+/* FIM AULA 7 */
